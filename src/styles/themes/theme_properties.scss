@@ -1,0 +1,437 @@
+// --------------------------------------------------------
+// 默认
+:root {
+  --plt-mode: light;
+  --plt-background-default: rgba(249, 249, 249, 1);
+  --plt-background-paper: rgba(255, 255, 255, 1);
+  --plt-text-primary: rgba(0, 0, 0, 0.87);
+  --plt-text-secondary: rgba(0, 0, 0, 0.6);
+  --plt-text-disabled: rgba(0, 0, 0, 0.38);
+  --plt-primary-main: rgba(255, 76, 70, 1);
+  --plt-primary-light: rgba(255, 111, 107, 1);
+  --plt-primary-dark: rgba(178, 53, 49, 1);
+  --plt-primary-contrastText: #fff;
+  --plt-secondary-main: rgba(35, 109, 219, 1);
+  --plt-secondary-light: rgba(79, 138, 226, 1);
+  --plt-secondary-dark: rgba(24, 76, 153, 1);
+  --plt-secondary-contrastText: #fff;
+  --plt-action-hoverBackground: rgba(0, 0, 0, 0.04);
+  --plt-action-activeBackground: rgba(0, 0, 0, 0.06);
+  --plt-action-selectedBackground: rgba(0, 0, 0, 0.08);
+  --plt-action-selectedHoverBackground: rgba(0, 0, 0, 0.12);
+  --plt-action-selectedActiveBackground: rgba(0, 0, 0, 0.14);
+  --plt-action-active: rgba(0, 0, 0, 0.54);
+  --plt-action-hover: rgba(0, 0, 0, 0.04);
+  --plt-action-hoverOpacity: 0.04;
+  --plt-action-selected: rgba(0, 0, 0, 0.08);
+  --plt-action-selectedOpacity: 0.08;
+  --plt-action-disabled: rgba(0, 0, 0, 0.26);
+  --plt-action-disabledBackground: rgba(0, 0, 0, 0.12);
+  --plt-action-disabledOpacity: 0.38;
+  --plt-action-focus: rgba(0, 0, 0, 0.12);
+  --plt-action-focusOpacity: 0.12;
+  --plt-action-activatedOpacity: 0.12;
+  --plt-btn-default-border: rgba(0, 0, 0, 0.25);
+  --plt-btn-default-radius: 4px;
+  --plt-btn-default-background: rgba(0, 0, 0, 0.04);
+  --plt-btn-default-hoverBackground: rgba(0, 0, 0, 0.07);
+  --plt-btn-default-activeBackground: rgba(0, 0, 0, 0.1);
+  --plt-btn-default-selectedBackground: rgba(0, 0, 0, 0.12);
+  --plt-btn-default-selectedHoverBackground: rgba(0, 0, 0, 0.15);
+  --plt-btn-default-selectedActiveBackground: rgba(0, 0, 0, 0.19);
+  --plt-common-black: #000;
+  --plt-common-white: #fff;
+  --plt-error-main: #d32f2f;
+  --plt-error-light: #ef5350;
+  --plt-error-dark: #c62828;
+  --plt-error-contrastText: #fff;
+  --plt-warning-main: #ed6c02;
+  --plt-warning-light: #ff9800;
+  --plt-warning-dark: #e65100;
+  --plt-warning-contrastText: #fff;
+  --plt-info-main: #0288d1;
+  --plt-info-light: #03a9f4;
+  --plt-info-dark: #01579b;
+  --plt-info-contrastText: #fff;
+  --plt-success-main: #2e7d32;
+  --plt-success-light: #4caf50;
+  --plt-success-dark: #1b5e20;
+  --plt-success-contrastText: #fff;
+  --plt-grey-50: #fafafa;
+  --plt-grey-100: #f5f5f5;
+  --plt-grey-200: #eeeeee;
+  --plt-grey-300: #e0e0e0;
+  --plt-grey-400: #bdbdbd;
+  --plt-grey-500: #9e9e9e;
+  --plt-grey-600: #757575;
+  --plt-grey-700: #616161;
+  --plt-grey-800: #424242;
+  --plt-grey-900: #212121;
+  --plt-grey-A100: #f5f5f5;
+  --plt-grey-A200: #eeeeee;
+  --plt-grey-A400: #bdbdbd;
+  --plt-grey-A700: #616161;
+  --plt-contrastThreshold: 3;
+  --plt-tonalOffset: 0.2;
+  --plt-divider: rgba(0, 0, 0, 0.12);
+  --z-mobileStepper: 1000;
+  --z-speedDial: 1050;
+  --z-appBar: 1100;
+  --z-drawer: 1200;
+  --z-modal: 1300;
+  --z-snackbar: 1400;
+  --z-tooltip: 1500;
+  --trans-easing-easeInOut: cubic-bezier(0.4, 0, 0.2, 1);
+  --trans-easing-easeOut: cubic-bezier(0, 0, 0.2, 1);
+  --trans-easing-easeIn: cubic-bezier(0.4, 0, 1, 1);
+  --trans-easing-sharp: cubic-bezier(0.4, 0, 0.6, 1);
+  --trans-duration-shortest: 150;
+  --trans-duration-shorter: 200;
+  --trans-duration-short: 250;
+  --trans-duration-standard: 300;
+  --trans-duration-complex: 375;
+  --trans-duration-enteringScreen: 225;
+  --trans-duration-leavingScreen: 195;
+  --typo-htmlFontSize: 16px;
+  --typo-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-fontSize: 14px;
+  --typo-fontWeightLight: 300;
+  --typo-fontWeightRegular: 400;
+  --typo-fontWeightMedium: 500;
+  --typo-fontWeightBold: 700;
+  --typo-h1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h1-fontWeight: 300;
+  --typo-h1-fontSize: 6rem;
+  --typo-h1-lineHeight: 1.167;
+  --typo-h1-letterSpacing: -0.01562em;
+  --typo-h2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h2-fontWeight: 300;
+  --typo-h2-fontSize: 3.75rem;
+  --typo-h2-lineHeight: 1.2;
+  --typo-h2-letterSpacing: -0.00833em;
+  --typo-h3-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h3-fontWeight: 400;
+  --typo-h3-fontSize: 3rem;
+  --typo-h3-lineHeight: 1.167;
+  --typo-h3-letterSpacing: 0em;
+  --typo-h4-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h4-fontWeight: 400;
+  --typo-h4-fontSize: 2.125rem;
+  --typo-h4-lineHeight: 1.235;
+  --typo-h4-letterSpacing: 0.00735em;
+  --typo-h5-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h5-fontWeight: 400;
+  --typo-h5-fontSize: 1.5rem;
+  --typo-h5-lineHeight: 1.334;
+  --typo-h5-letterSpacing: 0em;
+  --typo-h6-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h6-fontWeight: 500;
+  --typo-h6-fontSize: 1.25rem;
+  --typo-h6-lineHeight: 1.6;
+  --typo-h6-letterSpacing: 0.0075em;
+  --typo-subtitle1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-subtitle1-fontWeight: 400;
+  --typo-subtitle1-fontSize: 1rem;
+  --typo-subtitle1-lineHeight: 1.75;
+  --typo-subtitle1-letterSpacing: 0.00938em;
+  --typo-subtitle2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-subtitle2-fontWeight: 500;
+  --typo-subtitle2-fontSize: 0.875rem;
+  --typo-subtitle2-lineHeight: 1.57;
+  --typo-subtitle2-letterSpacing: 0.00714em;
+  --typo-body1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-body1-fontWeight: 400;
+  --typo-body1-fontSize: 1rem;
+  --typo-body1-lineHeight: 1.5;
+  --typo-body1-letterSpacing: 0.00938em;
+  --typo-body2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-body2-fontWeight: 400;
+  --typo-body2-fontSize: 0.875rem;
+  --typo-body2-lineHeight: 1.43;
+  --typo-body2-letterSpacing: 0.01071em;
+  --typo-button-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-button-fontWeight: 500;
+  --typo-button-fontSize: 0.875rem;
+  --typo-button-lineHeight: 1.75;
+  --typo-button-letterSpacing: 0.02857em;
+  --typo-button-textTransform: uppercase;
+  --typo-caption-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-caption-fontWeight: 400;
+  --typo-caption-fontSize: 0.75rem;
+  --typo-caption-lineHeight: 1.66;
+  --typo-caption-letterSpacing: 0.03333em;
+  --typo-overline-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-overline-fontWeight: 400;
+  --typo-overline-fontSize: 0.75rem;
+  --typo-overline-lineHeight: 2.66;
+  --typo-overline-letterSpacing: 0.08333em;
+  --typo-overline-textTransform: uppercase;
+  --shade-0: none;
+  --shade-1: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  --shade-2: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  --shade-3: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  --shade-4: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  --shade-5: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  --shade-6: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  --shade-7: 0px 4px 5px -2px rgba(0, 0, 0, 0.2), 0px 7px 10px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+  --shade-8: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  --shade-9: 0px 5px 6px -3px rgba(0, 0, 0, 0.2), 0px 9px 12px 1px rgba(0, 0, 0, 0.14),
+    0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+  --shade-10: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14),
+    0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+  --shade-11: 0px 6px 7px -4px rgba(0, 0, 0, 0.2), 0px 11px 15px 1px rgba(0, 0, 0, 0.14),
+    0px 4px 20px 3px rgba(0, 0, 0, 0.12);
+  --shade-12: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14),
+    0px 5px 22px 4px rgba(0, 0, 0, 0.12);
+  --shade-13: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 13px 19px 2px rgba(0, 0, 0, 0.14),
+    0px 5px 24px 4px rgba(0, 0, 0, 0.12);
+  --shade-14: 0px 7px 9px -4px rgba(0, 0, 0, 0.2), 0px 14px 21px 2px rgba(0, 0, 0, 0.14),
+    0px 5px 26px 4px rgba(0, 0, 0, 0.12);
+  --shade-15: 0px 8px 9px -5px rgba(0, 0, 0, 0.2), 0px 15px 22px 2px rgba(0, 0, 0, 0.14),
+    0px 6px 28px 5px rgba(0, 0, 0, 0.12);
+  --shade-16: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+  --shade-17: 0px 8px 11px -5px rgba(0, 0, 0, 0.2), 0px 17px 26px 2px rgba(0, 0, 0, 0.14),
+    0px 6px 32px 5px rgba(0, 0, 0, 0.12);
+  --shade-18: 0px 9px 11px -5px rgba(0, 0, 0, 0.2), 0px 18px 28px 2px rgba(0, 0, 0, 0.14),
+    0px 7px 34px 6px rgba(0, 0, 0, 0.12);
+  --shade-19: 0px 9px 12px -6px rgba(0, 0, 0, 0.2), 0px 19px 29px 2px rgba(0, 0, 0, 0.14),
+    0px 7px 36px 6px rgba(0, 0, 0, 0.12);
+  --shade-20: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 20px 31px 3px rgba(0, 0, 0, 0.14),
+    0px 8px 38px 7px rgba(0, 0, 0, 0.12);
+  --shade-21: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 21px 33px 3px rgba(0, 0, 0, 0.14),
+    0px 8px 40px 7px rgba(0, 0, 0, 0.12);
+  --shade-22: 0px 10px 14px -6px rgba(0, 0, 0, 0.2), 0px 22px 35px 3px rgba(0, 0, 0, 0.14),
+    0px 8px 42px 7px rgba(0, 0, 0, 0.12);
+  --shade-23: 0px 11px 14px -7px rgba(0, 0, 0, 0.2), 0px 23px 36px 3px rgba(0, 0, 0, 0.14),
+    0px 9px 44px 8px rgba(0, 0, 0, 0.12);
+  --shade-24: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+// --------------------------------------------------------
+// 黑暗
+.dark {
+  --plt-mode: dark;
+  --plt-background-default: rgba(24, 24, 24, 1);
+  --plt-background-paper: rgba(33, 33, 33, 1);
+  --plt-text-primary: #fff;
+  --plt-text-secondary: rgba(255, 255, 255, 0.7);
+  --plt-text-disabled: rgba(255, 255, 255, 0.5);
+  --plt-text-icon: rgba(255, 255, 255, 0.5);
+  --plt-primary-main: rgba(255, 76, 70, 1);
+  --plt-primary-light: rgba(255, 111, 107, 1);
+  --plt-primary-dark: rgba(178, 53, 49, 1);
+  --plt-primary-contrastText: #fff;
+  --plt-secondary-main: rgba(35, 109, 219, 1);
+  --plt-secondary-light: rgba(79, 138, 226, 1);
+  --plt-secondary-dark: rgba(24, 76, 153, 1);
+  --plt-secondary-contrastText: #fff;
+  --plt-action-hoverBackground: rgba(255, 255, 255, 0.06);
+  --plt-action-activeBackground: rgba(255, 255, 255, 0.09);
+  --plt-action-selectedBackground: rgba(255, 255, 255, 0.12);
+  --plt-action-selectedHoverBackground: rgba(255, 255, 255, 0.15);
+  --plt-action-selectedActiveBackground: rgba(255, 255, 255, 0.19);
+  --plt-action-active: #fff;
+  --plt-action-hover: rgba(255, 255, 255, 0.08);
+  --plt-action-hoverOpacity: 0.08;
+  --plt-action-selected: rgba(255, 255, 255, 0.16);
+  --plt-action-selectedOpacity: 0.16;
+  --plt-action-disabled: rgba(255, 255, 255, 0.3);
+  --plt-action-disabledBackground: rgba(255, 255, 255, 0.12);
+  --plt-action-disabledOpacity: 0.38;
+  --plt-action-focus: rgba(255, 255, 255, 0.12);
+  --plt-action-focusOpacity: 0.12;
+  --plt-action-activatedOpacity: 0.24;
+  --plt-btn-default-border: rgba(255, 255, 255, 0.25);
+  --plt-btn-default-radius: 4px;
+  --plt-btn-default-background: rgba(255, 255, 255, 0.04);
+  --plt-btn-default-hoverBackground: rgba(255, 255, 255, 0.07);
+  --plt-btn-default-activeBackground: rgba(255, 255, 255, 0.1);
+  --plt-btn-default-selectedBackground: rgba(255, 255, 255, 0.12);
+  --plt-btn-default-selectedHoverBackground: rgba(255, 255, 255, 0.15);
+  --plt-btn-default-selectedActiveBackground: rgba(255, 255, 255, 0.19);
+  --plt-common-black: #000;
+  --plt-common-white: #fff;
+  --plt-error-main: #f44336;
+  --plt-error-light: #e57373;
+  --plt-error-dark: #d32f2f;
+  --plt-error-contrastText: #fff;
+  --plt-warning-main: #ffa726;
+  --plt-warning-light: #ffb74d;
+  --plt-warning-dark: #f57c00;
+  --plt-warning-contrastText: rgba(0, 0, 0, 0.87);
+  --plt-info-main: #29b6f6;
+  --plt-info-light: #4fc3f7;
+  --plt-info-dark: #0288d1;
+  --plt-info-contrastText: rgba(0, 0, 0, 0.87);
+  --plt-success-main: #66bb6a;
+  --plt-success-light: #81c784;
+  --plt-success-dark: #388e3c;
+  --plt-success-contrastText: rgba(0, 0, 0, 0.87);
+  --plt-grey-50: #fafafa;
+  --plt-grey-100: #f5f5f5;
+  --plt-grey-200: #eeeeee;
+  --plt-grey-300: #e0e0e0;
+  --plt-grey-400: #bdbdbd;
+  --plt-grey-500: #9e9e9e;
+  --plt-grey-600: #757575;
+  --plt-grey-700: #616161;
+  --plt-grey-800: #424242;
+  --plt-grey-900: #212121;
+  --plt-grey-A100: #f5f5f5;
+  --plt-grey-A200: #eeeeee;
+  --plt-grey-A400: #bdbdbd;
+  --plt-grey-A700: #616161;
+  --plt-contrastThreshold: 3;
+  --plt-tonalOffset: 0.2;
+  --plt-divider: rgba(255, 255, 255, 0.12);
+  --z-mobileStepper: 1000;
+  --z-speedDial: 1050;
+  --z-appBar: 1100;
+  --z-drawer: 1200;
+  --z-modal: 1300;
+  --z-snackbar: 1400;
+  --z-tooltip: 1500;
+  --trans-easing-easeInOut: cubic-bezier(0.4, 0, 0.2, 1);
+  --trans-easing-easeOut: cubic-bezier(0, 0, 0.2, 1);
+  --trans-easing-easeIn: cubic-bezier(0.4, 0, 1, 1);
+  --trans-easing-sharp: cubic-bezier(0.4, 0, 0.6, 1);
+  --trans-duration-shortest: 150;
+  --trans-duration-shorter: 200;
+  --trans-duration-short: 250;
+  --trans-duration-standard: 300;
+  --trans-duration-complex: 375;
+  --trans-duration-enteringScreen: 225;
+  --trans-duration-leavingScreen: 195;
+  --typo-htmlFontSize: 16px;
+  --typo-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-fontSize: 14px;
+  --typo-fontWeightLight: 300;
+  --typo-fontWeightRegular: 400;
+  --typo-fontWeightMedium: 500;
+  --typo-fontWeightBold: 700;
+  --typo-h1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h1-fontWeight: 300;
+  --typo-h1-fontSize: 6rem;
+  --typo-h1-lineHeight: 1.167;
+  --typo-h1-letterSpacing: -0.01562em;
+  --typo-h2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h2-fontWeight: 300;
+  --typo-h2-fontSize: 3.75rem;
+  --typo-h2-lineHeight: 1.2;
+  --typo-h2-letterSpacing: -0.00833em;
+  --typo-h3-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h3-fontWeight: 400;
+  --typo-h3-fontSize: 3rem;
+  --typo-h3-lineHeight: 1.167;
+  --typo-h3-letterSpacing: 0em;
+  --typo-h4-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h4-fontWeight: 400;
+  --typo-h4-fontSize: 2.125rem;
+  --typo-h4-lineHeight: 1.235;
+  --typo-h4-letterSpacing: 0.00735em;
+  --typo-h5-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h5-fontWeight: 400;
+  --typo-h5-fontSize: 1.5rem;
+  --typo-h5-lineHeight: 1.334;
+  --typo-h5-letterSpacing: 0em;
+  --typo-h6-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-h6-fontWeight: 500;
+  --typo-h6-fontSize: 1.25rem;
+  --typo-h6-lineHeight: 1.6;
+  --typo-h6-letterSpacing: 0.0075em;
+  --typo-subtitle1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-subtitle1-fontWeight: 400;
+  --typo-subtitle1-fontSize: 1rem;
+  --typo-subtitle1-lineHeight: 1.75;
+  --typo-subtitle1-letterSpacing: 0.00938em;
+  --typo-subtitle2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-subtitle2-fontWeight: 500;
+  --typo-subtitle2-fontSize: 0.875rem;
+  --typo-subtitle2-lineHeight: 1.57;
+  --typo-subtitle2-letterSpacing: 0.00714em;
+  --typo-body1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-body1-fontWeight: 400;
+  --typo-body1-fontSize: 1rem;
+  --typo-body1-lineHeight: 1.5;
+  --typo-body1-letterSpacing: 0.00938em;
+  --typo-body2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-body2-fontWeight: 400;
+  --typo-body2-fontSize: 0.875rem;
+  --typo-body2-lineHeight: 1.43;
+  --typo-body2-letterSpacing: 0.01071em;
+  --typo-button-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-button-fontWeight: 500;
+  --typo-button-fontSize: 0.875rem;
+  --typo-button-lineHeight: 1.75;
+  --typo-button-letterSpacing: 0.02857em;
+  --typo-button-textTransform: uppercase;
+  --typo-caption-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-caption-fontWeight: 400;
+  --typo-caption-fontSize: 0.75rem;
+  --typo-caption-lineHeight: 1.66;
+  --typo-caption-letterSpacing: 0.03333em;
+  --typo-overline-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --typo-overline-fontWeight: 400;
+  --typo-overline-fontSize: 0.75rem;
+  --typo-overline-lineHeight: 2.66;
+  --typo-overline-letterSpacing: 0.08333em;
+  --typo-overline-textTransform: uppercase;
+  --shade-0: none;
+  --shade-1: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  --shade-2: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  --shade-3: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  --shade-4: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  --shade-5: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+  --shade-6: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  --shade-7: 0px 4px 5px -2px rgba(0, 0, 0, 0.2), 0px 7px 10px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+  --shade-8: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  --shade-9: 0px 5px 6px -3px rgba(0, 0, 0, 0.2), 0px 9px 12px 1px rgba(0, 0, 0, 0.14),
+    0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+  --shade-10: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14),
+    0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+  --shade-11: 0px 6px 7px -4px rgba(0, 0, 0, 0.2), 0px 11px 15px 1px rgba(0, 0, 0, 0.14),
+    0px 4px 20px 3px rgba(0, 0, 0, 0.12);
+  --shade-12: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14),
+    0px 5px 22px 4px rgba(0, 0, 0, 0.12);
+  --shade-13: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 13px 19px 2px rgba(0, 0, 0, 0.14),
+    0px 5px 24px 4px rgba(0, 0, 0, 0.12);
+  --shade-14: 0px 7px 9px -4px rgba(0, 0, 0, 0.2), 0px 14px 21px 2px rgba(0, 0, 0, 0.14),
+    0px 5px 26px 4px rgba(0, 0, 0, 0.12);
+  --shade-15: 0px 8px 9px -5px rgba(0, 0, 0, 0.2), 0px 15px 22px 2px rgba(0, 0, 0, 0.14),
+    0px 6px 28px 5px rgba(0, 0, 0, 0.12);
+  --shade-16: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+  --shade-17: 0px 8px 11px -5px rgba(0, 0, 0, 0.2), 0px 17px 26px 2px rgba(0, 0, 0, 0.14),
+    0px 6px 32px 5px rgba(0, 0, 0, 0.12);
+  --shade-18: 0px 9px 11px -5px rgba(0, 0, 0, 0.2), 0px 18px 28px 2px rgba(0, 0, 0, 0.14),
+    0px 7px 34px 6px rgba(0, 0, 0, 0.12);
+  --shade-19: 0px 9px 12px -6px rgba(0, 0, 0, 0.2), 0px 19px 29px 2px rgba(0, 0, 0, 0.14),
+    0px 7px 36px 6px rgba(0, 0, 0, 0.12);
+  --shade-20: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 20px 31px 3px rgba(0, 0, 0, 0.14),
+    0px 8px 38px 7px rgba(0, 0, 0, 0.12);
+  --shade-21: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 21px 33px 3px rgba(0, 0, 0, 0.14),
+    0px 8px 40px 7px rgba(0, 0, 0, 0.12);
+  --shade-22: 0px 10px 14px -6px rgba(0, 0, 0, 0.2), 0px 22px 35px 3px rgba(0, 0, 0, 0.14),
+    0px 8px 42px 7px rgba(0, 0, 0, 0.12);
+  --shade-23: 0px 11px 14px -7px rgba(0, 0, 0, 0.2), 0px 23px 36px 3px rgba(0, 0, 0, 0.14),
+    0px 9px 44px 8px rgba(0, 0, 0, 0.12);
+  --shade-24: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}

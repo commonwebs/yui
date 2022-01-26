@@ -1,0 +1,433 @@
+// --------------------------------------------------------
+// 默认
+$plt-l-mode: light;
+$plt-l-background-default: rgba(249, 249, 249, 1);
+$plt-l-background-paper: rgba(255, 255, 255, 1);
+$plt-l-text-primary: rgba(0, 0, 0, 0.87);
+$plt-l-text-secondary: rgba(0, 0, 0, 0.6);
+$plt-l-text-disabled: rgba(0, 0, 0, 0.38);
+$plt-l-primary-main: rgba(255, 76, 70, 1);
+$plt-l-primary-light: rgba(255, 111, 107, 1);
+$plt-l-primary-dark: rgba(178, 53, 49, 1);
+$plt-l-primary-contrastText: #fff;
+$plt-l-secondary-main: rgba(35, 109, 219, 1);
+$plt-l-secondary-light: rgba(79, 138, 226, 1);
+$plt-l-secondary-dark: rgba(24, 76, 153, 1);
+$plt-l-secondary-contrastText: #fff;
+$plt-l-action-hoverBackground: rgba(0, 0, 0, 0.04);
+$plt-l-action-activeBackground: rgba(0, 0, 0, 0.06);
+$plt-l-action-selectedBackground: rgba(0, 0, 0, 0.08);
+$plt-l-action-selectedHoverBackground: rgba(0, 0, 0, 0.12);
+$plt-l-action-selectedActiveBackground: rgba(0, 0, 0, 0.14);
+$plt-l-action-active: rgba(0, 0, 0, 0.54);
+$plt-l-action-hover: rgba(0, 0, 0, 0.04);
+$plt-l-action-hoverOpacity: 0.04;
+$plt-l-action-selected: rgba(0, 0, 0, 0.08);
+$plt-l-action-selectedOpacity: 0.08;
+$plt-l-action-disabled: rgba(0, 0, 0, 0.26);
+$plt-l-action-disabledBackground: rgba(0, 0, 0, 0.12);
+$plt-l-action-disabledOpacity: 0.38;
+$plt-l-action-focus: rgba(0, 0, 0, 0.12);
+$plt-l-action-focusOpacity: 0.12;
+$plt-l-action-activatedOpacity: 0.12;
+$plt-l-btn-default-border: rgba(0, 0, 0, 0.25);
+$plt-l-btn-default-radius: 4px;
+$plt-l-btn-default-background: rgba(0, 0, 0, 0.04);
+$plt-l-btn-default-hoverBackground: rgba(0, 0, 0, 0.07);
+$plt-l-btn-default-activeBackground: rgba(0, 0, 0, 0.1);
+$plt-l-btn-default-selectedBackground: rgba(0, 0, 0, 0.12);
+$plt-l-btn-default-selectedHoverBackground: rgba(0, 0, 0, 0.15);
+$plt-l-btn-default-selectedActiveBackground: rgba(0, 0, 0, 0.19);
+$plt-l-common-black: #000;
+$plt-l-common-white: #fff;
+$plt-l-error-main: #d32f2f;
+$plt-l-error-light: #ef5350;
+$plt-l-error-dark: #c62828;
+$plt-l-error-contrastText: #fff;
+$plt-l-warning-main: #ed6c02;
+$plt-l-warning-light: #ff9800;
+$plt-l-warning-dark: #e65100;
+$plt-l-warning-contrastText: #fff;
+$plt-l-info-main: #0288d1;
+$plt-l-info-light: #03a9f4;
+$plt-l-info-dark: #01579b;
+$plt-l-info-contrastText: #fff;
+$plt-l-success-main: #2e7d32;
+$plt-l-success-light: #4caf50;
+$plt-l-success-dark: #1b5e20;
+$plt-l-success-contrastText: #fff;
+$plt-l-grey-50: #fafafa;
+$plt-l-grey-100: #f5f5f5;
+$plt-l-grey-200: #eeeeee;
+$plt-l-grey-300: #e0e0e0;
+$plt-l-grey-400: #bdbdbd;
+$plt-l-grey-500: #9e9e9e;
+$plt-l-grey-600: #757575;
+$plt-l-grey-700: #616161;
+$plt-l-grey-800: #424242;
+$plt-l-grey-900: #212121;
+$plt-l-grey-A100: #f5f5f5;
+$plt-l-grey-A200: #eeeeee;
+$plt-l-grey-A400: #bdbdbd;
+$plt-l-grey-A700: #616161;
+$plt-l-contrastThreshold: 3;
+$plt-l-tonalOffset: 0.2;
+$plt-l-divider: rgba(0, 0, 0, 0.12);
+$z-l-mobileStepper: 1000;
+$z-l-speedDial: 1050;
+$z-l-appBar: 1100;
+$z-l-drawer: 1200;
+$z-l-modal: 1300;
+$z-l-snackbar: 1400;
+$z-l-tooltip: 1500;
+$trans-l-easing-easeInOut: cubic-bezier(0.4, 0, 0.2, 1);
+$trans-l-easing-easeOut: cubic-bezier(0, 0, 0.2, 1);
+$trans-l-easing-easeIn: cubic-bezier(0.4, 0, 1, 1);
+$trans-l-easing-sharp: cubic-bezier(0.4, 0, 0.6, 1);
+$trans-l-duration-shortest: 150;
+$trans-l-duration-shorter: 200;
+$trans-l-duration-short: 250;
+$trans-l-duration-standard: 300;
+$trans-l-duration-complex: 375;
+$trans-l-duration-enteringScreen: 225;
+$trans-l-duration-leavingScreen: 195;
+$typo-l-htmlFontSize: 16px;
+$typo-l-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-fontSize: 14px;
+$typo-l-fontWeightLight: 300;
+$typo-l-fontWeightRegular: 400;
+$typo-l-fontWeightMedium: 500;
+$typo-l-fontWeightBold: 700;
+$typo-l-h1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-h1-fontWeight: 300;
+$typo-l-h1-fontSize: 6rem;
+$typo-l-h1-lineHeight: 1.167;
+$typo-l-h1-letterSpacing: -0.01562em;
+$typo-l-h2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-h2-fontWeight: 300;
+$typo-l-h2-fontSize: 3.75rem;
+$typo-l-h2-lineHeight: 1.2;
+$typo-l-h2-letterSpacing: -0.00833em;
+$typo-l-h3-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-h3-fontWeight: 400;
+$typo-l-h3-fontSize: 3rem;
+$typo-l-h3-lineHeight: 1.167;
+$typo-l-h3-letterSpacing: 0em;
+$typo-l-h4-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-h4-fontWeight: 400;
+$typo-l-h4-fontSize: 2.125rem;
+$typo-l-h4-lineHeight: 1.235;
+$typo-l-h4-letterSpacing: 0.00735em;
+$typo-l-h5-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-h5-fontWeight: 400;
+$typo-l-h5-fontSize: 1.5rem;
+$typo-l-h5-lineHeight: 1.334;
+$typo-l-h5-letterSpacing: 0em;
+$typo-l-h6-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-h6-fontWeight: 500;
+$typo-l-h6-fontSize: 1.25rem;
+$typo-l-h6-lineHeight: 1.6;
+$typo-l-h6-letterSpacing: 0.0075em;
+$typo-l-subtitle1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-subtitle1-fontWeight: 400;
+$typo-l-subtitle1-fontSize: 1rem;
+$typo-l-subtitle1-lineHeight: 1.75;
+$typo-l-subtitle1-letterSpacing: 0.00938em;
+$typo-l-subtitle2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-subtitle2-fontWeight: 500;
+$typo-l-subtitle2-fontSize: 0.875rem;
+$typo-l-subtitle2-lineHeight: 1.57;
+$typo-l-subtitle2-letterSpacing: 0.00714em;
+$typo-l-body1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-body1-fontWeight: 400;
+$typo-l-body1-fontSize: 1rem;
+$typo-l-body1-lineHeight: 1.5;
+$typo-l-body1-letterSpacing: 0.00938em;
+$typo-l-body2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-body2-fontWeight: 400;
+$typo-l-body2-fontSize: 0.875rem;
+$typo-l-body2-lineHeight: 1.43;
+$typo-l-body2-letterSpacing: 0.01071em;
+$typo-l-button-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-button-fontWeight: 500;
+$typo-l-button-fontSize: 0.875rem;
+$typo-l-button-lineHeight: 1.75;
+$typo-l-button-letterSpacing: 0.02857em;
+$typo-l-button-textTransform: uppercase;
+$typo-l-caption-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-caption-fontWeight: 400;
+$typo-l-caption-fontSize: 0.75rem;
+$typo-l-caption-lineHeight: 1.66;
+$typo-l-caption-letterSpacing: 0.03333em;
+$typo-l-overline-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-l-overline-fontWeight: 400;
+$typo-l-overline-fontSize: 0.75rem;
+$typo-l-overline-lineHeight: 2.66;
+$typo-l-overline-letterSpacing: 0.08333em;
+$typo-l-overline-textTransform: uppercase;
+$shade-l-0: none;
+$shade-l-1: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+$shade-l-2: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+$shade-l-3: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+$shade-l-4: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+$shade-l-5: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+$shade-l-6: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+$shade-l-7: 0px 4px 5px -2px rgba(0, 0, 0, 0.2), 0px 7px 10px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+$shade-l-8: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14),
+  0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+$shade-l-9: 0px 5px 6px -3px rgba(0, 0, 0, 0.2), 0px 9px 12px 1px rgba(0, 0, 0, 0.14),
+  0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+$shade-l-10: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14),
+  0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+$shade-l-11: 0px 6px 7px -4px rgba(0, 0, 0, 0.2), 0px 11px 15px 1px rgba(0, 0, 0, 0.14),
+  0px 4px 20px 3px rgba(0, 0, 0, 0.12);
+$shade-l-12: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14),
+  0px 5px 22px 4px rgba(0, 0, 0, 0.12);
+$shade-l-13: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 13px 19px 2px rgba(0, 0, 0, 0.14),
+  0px 5px 24px 4px rgba(0, 0, 0, 0.12);
+$shade-l-14: 0px 7px 9px -4px rgba(0, 0, 0, 0.2), 0px 14px 21px 2px rgba(0, 0, 0, 0.14),
+  0px 5px 26px 4px rgba(0, 0, 0, 0.12);
+$shade-l-15: 0px 8px 9px -5px rgba(0, 0, 0, 0.2), 0px 15px 22px 2px rgba(0, 0, 0, 0.14),
+  0px 6px 28px 5px rgba(0, 0, 0, 0.12);
+$shade-l-16: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14),
+  0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+$shade-l-17: 0px 8px 11px -5px rgba(0, 0, 0, 0.2), 0px 17px 26px 2px rgba(0, 0, 0, 0.14),
+  0px 6px 32px 5px rgba(0, 0, 0, 0.12);
+$shade-l-18: 0px 9px 11px -5px rgba(0, 0, 0, 0.2), 0px 18px 28px 2px rgba(0, 0, 0, 0.14),
+  0px 7px 34px 6px rgba(0, 0, 0, 0.12);
+$shade-l-19: 0px 9px 12px -6px rgba(0, 0, 0, 0.2), 0px 19px 29px 2px rgba(0, 0, 0, 0.14),
+  0px 7px 36px 6px rgba(0, 0, 0, 0.12);
+$shade-l-20: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 20px 31px 3px rgba(0, 0, 0, 0.14),
+  0px 8px 38px 7px rgba(0, 0, 0, 0.12);
+$shade-l-21: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 21px 33px 3px rgba(0, 0, 0, 0.14),
+  0px 8px 40px 7px rgba(0, 0, 0, 0.12);
+$shade-l-22: 0px 10px 14px -6px rgba(0, 0, 0, 0.2), 0px 22px 35px 3px rgba(0, 0, 0, 0.14),
+  0px 8px 42px 7px rgba(0, 0, 0, 0.12);
+$shade-l-23: 0px 11px 14px -7px rgba(0, 0, 0, 0.2), 0px 23px 36px 3px rgba(0, 0, 0, 0.14),
+  0px 9px 44px 8px rgba(0, 0, 0, 0.12);
+$shade-l-24: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+  0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+// --------------------------------------------------------
+// 黑暗
+$plt-d-mode: dark;
+$plt-d-background-default: rgba(24, 24, 24, 1);
+$plt-d-background-paper: rgba(33, 33, 33, 1);
+$plt-d-text-primary: #fff;
+$plt-d-text-secondary: rgba(255, 255, 255, 0.7);
+$plt-d-text-disabled: rgba(255, 255, 255, 0.5);
+$plt-d-text-icon: rgba(255, 255, 255, 0.5);
+$plt-d-primary-main: rgba(255, 76, 70, 1);
+$plt-d-primary-light: rgba(255, 111, 107, 1);
+$plt-d-primary-dark: rgba(178, 53, 49, 1);
+$plt-d-primary-contrastText: #fff;
+$plt-d-secondary-main: rgba(35, 109, 219, 1);
+$plt-d-secondary-light: rgba(79, 138, 226, 1);
+$plt-d-secondary-dark: rgba(24, 76, 153, 1);
+$plt-d-secondary-contrastText: #fff;
+$plt-d-action-hoverBackground: rgba(255, 255, 255, 0.06);
+$plt-d-action-activeBackground: rgba(255, 255, 255, 0.09);
+$plt-d-action-selectedBackground: rgba(255, 255, 255, 0.12);
+$plt-d-action-selectedHoverBackground: rgba(255, 255, 255, 0.15);
+$plt-d-action-selectedActiveBackground: rgba(255, 255, 255, 0.19);
+$plt-d-action-active: #fff;
+$plt-d-action-hover: rgba(255, 255, 255, 0.08);
+$plt-d-action-hoverOpacity: 0.08;
+$plt-d-action-selected: rgba(255, 255, 255, 0.16);
+$plt-d-action-selectedOpacity: 0.16;
+$plt-d-action-disabled: rgba(255, 255, 255, 0.3);
+$plt-d-action-disabledBackground: rgba(255, 255, 255, 0.12);
+$plt-d-action-disabledOpacity: 0.38;
+$plt-d-action-focus: rgba(255, 255, 255, 0.12);
+$plt-d-action-focusOpacity: 0.12;
+$plt-d-action-activatedOpacity: 0.24;
+$plt-d-btn-default-border: rgba(255, 255, 255, 0.25);
+$plt-d-btn-default-radius: 4px;
+$plt-d-btn-default-background: rgba(255, 255, 255, 0.04);
+$plt-d-btn-default-hoverBackground: rgba(255, 255, 255, 0.07);
+$plt-d-btn-default-activeBackground: rgba(255, 255, 255, 0.1);
+$plt-d-btn-default-selectedBackground: rgba(255, 255, 255, 0.12);
+$plt-d-btn-default-selectedHoverBackground: rgba(255, 255, 255, 0.15);
+$plt-d-btn-default-selectedActiveBackground: rgba(255, 255, 255, 0.19);
+$plt-d-common-black: #000;
+$plt-d-common-white: #fff;
+$plt-d-error-main: #f44336;
+$plt-d-error-light: #e57373;
+$plt-d-error-dark: #d32f2f;
+$plt-d-error-contrastText: #fff;
+$plt-d-warning-main: #ffa726;
+$plt-d-warning-light: #ffb74d;
+$plt-d-warning-dark: #f57c00;
+$plt-d-warning-contrastText: rgba(0, 0, 0, 0.87);
+$plt-d-info-main: #29b6f6;
+$plt-d-info-light: #4fc3f7;
+$plt-d-info-dark: #0288d1;
+$plt-d-info-contrastText: rgba(0, 0, 0, 0.87);
+$plt-d-success-main: #66bb6a;
+$plt-d-success-light: #81c784;
+$plt-d-success-dark: #388e3c;
+$plt-d-success-contrastText: rgba(0, 0, 0, 0.87);
+$plt-d-grey-50: #fafafa;
+$plt-d-grey-100: #f5f5f5;
+$plt-d-grey-200: #eeeeee;
+$plt-d-grey-300: #e0e0e0;
+$plt-d-grey-400: #bdbdbd;
+$plt-d-grey-500: #9e9e9e;
+$plt-d-grey-600: #757575;
+$plt-d-grey-700: #616161;
+$plt-d-grey-800: #424242;
+$plt-d-grey-900: #212121;
+$plt-d-grey-A100: #f5f5f5;
+$plt-d-grey-A200: #eeeeee;
+$plt-d-grey-A400: #bdbdbd;
+$plt-d-grey-A700: #616161;
+$plt-d-contrastThreshold: 3;
+$plt-d-tonalOffset: 0.2;
+$plt-d-divider: rgba(255, 255, 255, 0.12);
+$z-d-mobileStepper: 1000;
+$z-d-speedDial: 1050;
+$z-d-appBar: 1100;
+$z-d-drawer: 1200;
+$z-d-modal: 1300;
+$z-d-snackbar: 1400;
+$z-d-tooltip: 1500;
+$trans-d-easing-easeInOut: cubic-bezier(0.4, 0, 0.2, 1);
+$trans-d-easing-easeOut: cubic-bezier(0, 0, 0.2, 1);
+$trans-d-easing-easeIn: cubic-bezier(0.4, 0, 1, 1);
+$trans-d-easing-sharp: cubic-bezier(0.4, 0, 0.6, 1);
+$trans-d-duration-shortest: 150;
+$trans-d-duration-shorter: 200;
+$trans-d-duration-short: 250;
+$trans-d-duration-standard: 300;
+$trans-d-duration-complex: 375;
+$trans-d-duration-enteringScreen: 225;
+$trans-d-duration-leavingScreen: 195;
+$typo-d-htmlFontSize: 16px;
+$typo-d-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-fontSize: 14px;
+$typo-d-fontWeightLight: 300;
+$typo-d-fontWeightRegular: 400;
+$typo-d-fontWeightMedium: 500;
+$typo-d-fontWeightBold: 700;
+$typo-d-h1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-h1-fontWeight: 300;
+$typo-d-h1-fontSize: 6rem;
+$typo-d-h1-lineHeight: 1.167;
+$typo-d-h1-letterSpacing: -0.01562em;
+$typo-d-h2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-h2-fontWeight: 300;
+$typo-d-h2-fontSize: 3.75rem;
+$typo-d-h2-lineHeight: 1.2;
+$typo-d-h2-letterSpacing: -0.00833em;
+$typo-d-h3-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-h3-fontWeight: 400;
+$typo-d-h3-fontSize: 3rem;
+$typo-d-h3-lineHeight: 1.167;
+$typo-d-h3-letterSpacing: 0em;
+$typo-d-h4-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-h4-fontWeight: 400;
+$typo-d-h4-fontSize: 2.125rem;
+$typo-d-h4-lineHeight: 1.235;
+$typo-d-h4-letterSpacing: 0.00735em;
+$typo-d-h5-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-h5-fontWeight: 400;
+$typo-d-h5-fontSize: 1.5rem;
+$typo-d-h5-lineHeight: 1.334;
+$typo-d-h5-letterSpacing: 0em;
+$typo-d-h6-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-h6-fontWeight: 500;
+$typo-d-h6-fontSize: 1.25rem;
+$typo-d-h6-lineHeight: 1.6;
+$typo-d-h6-letterSpacing: 0.0075em;
+$typo-d-subtitle1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-subtitle1-fontWeight: 400;
+$typo-d-subtitle1-fontSize: 1rem;
+$typo-d-subtitle1-lineHeight: 1.75;
+$typo-d-subtitle1-letterSpacing: 0.00938em;
+$typo-d-subtitle2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-subtitle2-fontWeight: 500;
+$typo-d-subtitle2-fontSize: 0.875rem;
+$typo-d-subtitle2-lineHeight: 1.57;
+$typo-d-subtitle2-letterSpacing: 0.00714em;
+$typo-d-body1-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-body1-fontWeight: 400;
+$typo-d-body1-fontSize: 1rem;
+$typo-d-body1-lineHeight: 1.5;
+$typo-d-body1-letterSpacing: 0.00938em;
+$typo-d-body2-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-body2-fontWeight: 400;
+$typo-d-body2-fontSize: 0.875rem;
+$typo-d-body2-lineHeight: 1.43;
+$typo-d-body2-letterSpacing: 0.01071em;
+$typo-d-button-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-button-fontWeight: 500;
+$typo-d-button-fontSize: 0.875rem;
+$typo-d-button-lineHeight: 1.75;
+$typo-d-button-letterSpacing: 0.02857em;
+$typo-d-button-textTransform: uppercase;
+$typo-d-caption-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-caption-fontWeight: 400;
+$typo-d-caption-fontSize: 0.75rem;
+$typo-d-caption-lineHeight: 1.66;
+$typo-d-caption-letterSpacing: 0.03333em;
+$typo-d-overline-fontFamily: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$typo-d-overline-fontWeight: 400;
+$typo-d-overline-fontSize: 0.75rem;
+$typo-d-overline-lineHeight: 2.66;
+$typo-d-overline-letterSpacing: 0.08333em;
+$typo-d-overline-textTransform: uppercase;
+$shade-d-0: none;
+$shade-d-1: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+$shade-d-2: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+$shade-d-3: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+$shade-d-4: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+$shade-d-5: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+$shade-d-6: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+$shade-d-7: 0px 4px 5px -2px rgba(0, 0, 0, 0.2), 0px 7px 10px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+$shade-d-8: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14),
+  0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+$shade-d-9: 0px 5px 6px -3px rgba(0, 0, 0, 0.2), 0px 9px 12px 1px rgba(0, 0, 0, 0.14),
+  0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+$shade-d-10: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14),
+  0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+$shade-d-11: 0px 6px 7px -4px rgba(0, 0, 0, 0.2), 0px 11px 15px 1px rgba(0, 0, 0, 0.14),
+  0px 4px 20px 3px rgba(0, 0, 0, 0.12);
+$shade-d-12: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14),
+  0px 5px 22px 4px rgba(0, 0, 0, 0.12);
+$shade-d-13: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 13px 19px 2px rgba(0, 0, 0, 0.14),
+  0px 5px 24px 4px rgba(0, 0, 0, 0.12);
+$shade-d-14: 0px 7px 9px -4px rgba(0, 0, 0, 0.2), 0px 14px 21px 2px rgba(0, 0, 0, 0.14),
+  0px 5px 26px 4px rgba(0, 0, 0, 0.12);
+$shade-d-15: 0px 8px 9px -5px rgba(0, 0, 0, 0.2), 0px 15px 22px 2px rgba(0, 0, 0, 0.14),
+  0px 6px 28px 5px rgba(0, 0, 0, 0.12);
+$shade-d-16: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14),
+  0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+$shade-d-17: 0px 8px 11px -5px rgba(0, 0, 0, 0.2), 0px 17px 26px 2px rgba(0, 0, 0, 0.14),
+  0px 6px 32px 5px rgba(0, 0, 0, 0.12);
+$shade-d-18: 0px 9px 11px -5px rgba(0, 0, 0, 0.2), 0px 18px 28px 2px rgba(0, 0, 0, 0.14),
+  0px 7px 34px 6px rgba(0, 0, 0, 0.12);
+$shade-d-19: 0px 9px 12px -6px rgba(0, 0, 0, 0.2), 0px 19px 29px 2px rgba(0, 0, 0, 0.14),
+  0px 7px 36px 6px rgba(0, 0, 0, 0.12);
+$shade-d-20: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 20px 31px 3px rgba(0, 0, 0, 0.14),
+  0px 8px 38px 7px rgba(0, 0, 0, 0.12);
+$shade-d-21: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 21px 33px 3px rgba(0, 0, 0, 0.14),
+  0px 8px 40px 7px rgba(0, 0, 0, 0.12);
+$shade-d-22: 0px 10px 14px -6px rgba(0, 0, 0, 0.2), 0px 22px 35px 3px rgba(0, 0, 0, 0.14),
+  0px 8px 42px 7px rgba(0, 0, 0, 0.12);
+$shade-d-23: 0px 11px 14px -7px rgba(0, 0, 0, 0.2), 0px 23px 36px 3px rgba(0, 0, 0, 0.14),
+  0px 9px 44px 8px rgba(0, 0, 0, 0.12);
+$shade-d-24: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+  0px 9px 46px 8px rgba(0, 0, 0, 0.12);
